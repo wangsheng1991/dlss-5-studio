@@ -1,0 +1,70 @@
+name: Compatibility report
+description: Tell us the exact configuration you ran, so it can be recorded instead of guessed
+title: "[compat] GPU model — Windows build — job type"
+labels: ["compatibility"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A model name alone is not a compatibility report. Fill in every field you can; anything left blank stays `unknown` in COMPATIBILITY.md rather than being assumed.
+  - type: input
+    id: gpu
+    attributes:
+      label: GPU model exactly as reported
+      description: Include the vendor suffix, e.g. RTX 4070 Ti SUPER, RTX 3080 Ti (OEM), RTX 2080 SUPER
+    validations:
+      required: true
+  - type: input
+    id: vram
+    attributes:
+      label: VRAM
+      placeholder: 12 GB
+    validations:
+      required: true
+  - type: input
+    id: driver
+    attributes:
+      label: NVIDIA driver version
+      placeholder: 610.xxx
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows edition and build
+      placeholder: Windows 11 Pro 23H2 (22631.4169)
+    validations:
+      required: true
+  - type: dropdown
+    id: job
+    attributes:
+      label: Job type
+      options:
+        - Still image — style conversion
+        - Still image — enhancement / upscaling
+        - Video — enhancement / upscaling
+        - Video — style conversion
+    validations:
+      required: true
+  - type: input
+    id: sizes
+    attributes:
+      label: Input size and output size
+      placeholder: 1280x720 -> 2560x1440
+  - type: input
+    id: elapsed
+    attributes:
+      label: Elapsed time and frames, if the app reported it
+      placeholder: 87.4 s total, 36 frames, software encode
+  - type: textarea
+    id: message
+    attributes:
+      label: Job message text, if one appeared
+      description: Paste it verbatim. We do not want a summary of it.
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: I ran this myself on the configuration above, and the numbers are what the app reported
+          required: true

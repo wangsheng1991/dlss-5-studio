@@ -1,0 +1,41 @@
+name: Bug report
+description: Something in the app behaved differently from what the documentation says
+title: "[bug] short description"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before filing: this repo is not the place for DLSS 5 game questions. NVIDIA's in-game feature is tracked, with sources and dates, at https://www.dlss5nvidia.com/games
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: The actual behaviour, in order, including any message text verbatim
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+      description: Quote the documentation you are comparing against, if you can
+  - type: input
+    id: build
+    attributes:
+      label: Build you are running
+      placeholder: from the request email or the app's about line
+  - type: input
+    id: gpu
+    attributes:
+      label: GPU and driver
+      placeholder: RTX 4090 24 GB, driver 591.86
+  - type: input
+    id: windows
+    attributes:
+      label: Windows edition and build
+      placeholder: Windows 11 Pro 23H2 (22631.4169)
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: If it does not reproduce, say so — that is useful information too

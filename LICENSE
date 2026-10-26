@@ -1,0 +1,19 @@
+Copyright (c) 2026 DLSS5NVIDIA. All rights reserved.
+
+The DLSS5 Studio application is proprietary software. It is not distributed
+from this repository, and nothing here grants a licence to use, copy, modify or
+redistribute the application or any build of it.
+
+The text and images in this repository are published so that people can
+evaluate the product. You may quote them with attribution and a link to
+https://www.dlss5nvidia.com/. You may not republish them as your own product
+documentation, or use them to suggest an endorsement you do not have.
+
+"DLSS", "RTX", "GeForce", "NVENC" and "NVIDIA" are trademarks of NVIDIA
+Corporation. This repository is not affiliated with, endorsed by, or sponsored
+by NVIDIA. Those names appear here only to state hardware and compatibility
+facts.
+
+NVIDIA's Visual Enhancer release package is not contained in this repository and
+is not redistributed by us. Where it is required, it must be obtained from
+NVIDIA's own distribution.
