@@ -82,3 +82,10 @@ We read issues, and a report that reproduces gets fixed faster than a report tha
 ## License
 
 The application is proprietary; all rights reserved. The text and images in this repository are published so that people can evaluate the product, and may be quoted with attribution and a link. See [LICENSE](LICENSE).
+
+## Related
+
+- [dlss5-enhancer-cli](https://github.com/wangsheng1991/dlss5-enhancer-cli) — Batch image enhancement from your own machine — the command-line client for the web enhancer.
+- [dlss5-visual-enhancer](https://github.com/wangsheng1991/dlss5-visual-enhancer) — Reproduce one documented enhancement example locally: input, output, hashes, compare page.
+- [dlss5-compatibility-data](https://github.com/wangsheng1991/dlss5-compatibility-data) — Source-attributed, machine-readable DLSS 5 GPU compatibility data.
+- [DLSS5NVIDIA](https://www.dlss5nvidia.com/) — the site these projects belong to
