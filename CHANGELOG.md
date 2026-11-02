@@ -4,6 +4,8 @@ Dated record of what changed. We do not publish a version bump without a line he
 
 ## 2026-11-02
 
+- Linked the separate Windows cloud-client character-style development requirements, tracking issue and shared web style/API catalog. This is a development plan, not an application release.
+
 - Separated the local Windows RTX Studio beta application from the published Enhance cloud-client downloads and browser style-conversion sample.
 - Linked the unsigned Windows x64 Enhance v0.1.1 and macOS Intel v0.1.0 installers, release checksum and Windows validation evidence. No local Studio release or new GPU-compatibility claim is made by this documentation update.
 

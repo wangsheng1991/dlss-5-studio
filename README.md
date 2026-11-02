@@ -70,6 +70,16 @@ Downloading these unsigned previews needs no email or sign-in. Running Enhance c
 
 [All downloads, online trial and beta application](https://www.dlss5nvidia.com/download).
 
+## Windows character-style development
+
+The planned next workflow for the **separate cloud client** is: choose a game-character image, pick one of the five browser styles, confirm the credit cost, generate, compare and save. Current Enhance Windows v0.1.1 still supports batch image enhancement; character styling has not shipped in that client.
+
+- [Developer requirements and native Windows acceptance checklist](https://github.com/wangsheng1991/dlss5-enhancer-cli/blob/master/docs/WINDOWS-CHARACTER-STYLE-20261102.md)
+- [Implementation tracking issue](https://github.com/wangsheng1991/dlss5-enhancer-cli/issues/1)
+- [Shared style/API catalog](https://www.dlss5nvidia.com/desktop/character-style-v1.json)
+
+The cloud-client plan does not change this local RTX Studio beta's runtime, hardware requirements or access process. [Try character styling in the browser now](https://www.dlss5nvidia.com/dashboard?tool=game-character-style&sample=characterStyle).
+
 ## This repository
 
 - [REQUIREMENTS.md](REQUIREMENTS.md) — the full compatibility statement and what each field means.
