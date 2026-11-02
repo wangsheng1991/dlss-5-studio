@@ -45,7 +45,7 @@ If what you actually want is NVIDIA's in-game feature, our site keeps a source-d
 | Disk | About 3 GB free — the portable folder is roughly 1.1 GB unpacked |
 | Engine | The NVIDIA Visual Enhancer release package. Studio drives it — it is not bundled inside this download |
 
-No RTX GPU, or the local build does not fit your machine? The browser converter runs the same pipeline online: <https://www.dlss5nvidia.com/visual-enhancer>.
+For a game-character style reference without installing Studio, [try the browser sample](https://www.dlss5nvidia.com/dashboard?tool=game-character-style&sample=characterStyle). It is a separate cloud workflow; its output is not a local Studio compatibility test.
 
 ## One measured run
 
@@ -57,7 +57,18 @@ That is one batch result on one machine, recorded 2026-09-25. It is not real-tim
 
 ## Getting access
 
-Access is requested, not downloaded from here: <https://www.dlss5nvidia.com/download>. You file a request on that page, we reply by email with the build and the checksums. There is no public direct-download link, and we do not mirror other people's packages.
+The **local Windows RTX Studio beta** has a separate [application page](https://www.dlss5nvidia.com/studio-beta). Sign in and request access there; invitations are handled by email. This repository does not publish a public Studio installer.
+
+For an installer you can download now, **DLSS5 Enhance** is a separate open-source cloud client:
+
+| Platform | Direct download |
+|---|---|
+| Windows x64 | [Enhance v0.1.1 EXE](https://github.com/wangsheng1991/dlss5-enhancer-cli/releases/download/v0.1.1/DLSS5.Enhance-0.1.1-win-x64-Setup.exe) |
+| macOS Intel | [Enhance v0.1.0 DMG](https://github.com/wangsheng1991/dlss5-enhancer-cli/releases/download/v0.1.0/DLSS5.Enhance-0.1.0.dmg) |
+
+Downloading these unsigned previews needs no email or sign-in. Running Enhance cloud jobs requires internet access, a website account and credits; local RTX hardware is not required. Enhance is not the local Studio app and does not include its image/video engine. [Release notes, checksum and native Windows test screenshot](https://github.com/wangsheng1991/dlss5-enhancer-cli/releases/tag/v0.1.1).
+
+[All downloads, online trial and beta application](https://www.dlss5nvidia.com/download).
 
 ## This repository
 
@@ -73,7 +84,8 @@ We read issues, and a report that reproduces gets fixed faster than a report tha
 | | |
 |---|---|
 | Site | <https://www.dlss5nvidia.com/> |
-| Download and access request | <https://www.dlss5nvidia.com/download> |
+| Published downloads and online trial | <https://www.dlss5nvidia.com/download> |
+| Local Windows RTX beta application | <https://www.dlss5nvidia.com/studio-beta> |
 | GPU compatibility table (source-dated) | <https://www.dlss5nvidia.com/dlss-checker> |
 | Games tracker | <https://www.dlss5nvidia.com/games> |
 | Benchmark rules and limits | <https://www.dlss5nvidia.com/benchmark> |
